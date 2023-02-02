@@ -1,0 +1,25 @@
+body{
+    width:80%;
+    margin: auto;
+    margin-top: 3%;
+    border: 5px solid black;
+    border-radius: 5%;
+    padding: 15px;
+    /* background-image: url(fond.webp);
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+}
+
+
+#volume{
+    width: 33%;
+}
+
+#search{
+    width: 50%;
+}
+
+#progressBar{
+    width: 100%;
+}

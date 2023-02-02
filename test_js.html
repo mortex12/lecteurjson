@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		
+	</head>
+	
+	
+	<body>
+		<div id="presentation"></div>
+		<script type="text/javascript">
+		
+
+
+		fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=rammstein')
+		.then(function(response) {
+		  return response.json();
+		})
+		.then(function(json) {
+		  alert(json.data[0].title);
+		});	
+  
+			  
+
+		
+			
+		
+		</script>
+	
+	</body>
+
+</html>
